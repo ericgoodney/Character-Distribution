@@ -42,11 +42,11 @@ print('The distribution of characters in "' +  text + '" is:')
 lettera = (text.count('a'))
 print('a'*lettera)
 if ('a'*lettera) == 0:
-        print('')
+        print(end=" ")
 lettera = (text.count('b'))
 print('b'*lettera)
 if ('b'*lettera) == 0:
-        print('')
+        print(end=" ")
 lettera = (text.count('c'))
 print('c'*lettera)
 lettera = (text.count('d'))
