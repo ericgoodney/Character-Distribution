@@ -41,3 +41,83 @@ print('The distribution of characters in "' +  text + '" is:')
 
 lettera = (text.count('a'))
 print('a'*lettera)
+lettera = (text.count('b'))
+print('b'*lettera)
+lettera = (text.count('c'))
+print('c'*lettera)
+lettera = (text.count('d'))
+print('d'*lettera)
+lettera = (text.count('e'))
+print('e'*lettera)
+lettera = (text.count('f'))
+print('f'*lettera)
+lettera = (text.count('g'))
+print('g'*lettera)
+lettera = (text.count('h'))
+print('h'*lettera)
+lettera = (text.count('i'))
+print('i'*lettera)
+lettera = (text.count('j'))
+print('j'*lettera)
+lettera = (text.count('k'))
+print('k'*lettera)
+lettera = (text.count('l'))
+print('l'*lettera)
+lettera = (text.count('m'))
+print('m'*lettera)
+lettera = (text.count('an'))
+print('n'*lettera)
+lettera = (text.count('o'))
+print('o'*lettera)
+lettera = (text.count('p'))
+print('p'*lettera)
+lettera = (text.count('q'))
+print('q'*lettera)
+lettera = (text.count('r'))
+print('r'*lettera)
+lettera = (text.count('s'))
+print('s'*lettera)
+lettera = (text.count('t'))
+print('t'*lettera)
+lettera = (text.count('u'))
+print('u'*lettera)
+lettera = (text.count('v'))
+print('v'*lettera)
+lettera = (text.count('w'))
+print('w'*lettera)
+lettera = (text.count('x'))
+print('x'*lettera)
+lettera = (text.count('y'))
+print('y'*lettera)
+lettera = (text.count('z'))
+print('z'*lettera)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
