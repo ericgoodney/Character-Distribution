@@ -45,8 +45,6 @@ if ('a'*lettera) == 0:
         print(end=" ")
 lettera = (text.count('b'))
 print('b'*lettera)
-if ('b'*lettera) == 0:
-        print(end=" ")
 lettera = (text.count('c'))
 print('c'*lettera)
 lettera = (text.count('d'))
