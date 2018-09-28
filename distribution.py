@@ -36,13 +36,12 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+import string
 text = input("Please enter a string of text (the bigger the better): ") 
 print('The distribution of characters in "' +  text + '" is:')
 
 lettera = (text.count('a'))
 print('a'*lettera)
-if ('a'*lettera) == 0:
-        print(end=" ")
 lettera = (text.count('b'))
 print('b'*lettera)
 lettera = (text.count('c'))
@@ -93,6 +92,10 @@ lettera = (text.count('y'))
 print('y'*lettera)
 lettera = (text.count('z'))
 print('z'*lettera)
+
+
+
+
 
 
 
