@@ -40,6 +40,7 @@ import string
 text = input("Please enter a string of text (the bigger the better): ") 
 print('The distribution of characters in "' +  text + '" is:')
 
+#prints all letters in their respective groups/need to order the groups by size. 
 lettera = (text.count('a'))
 print('a'*lettera)
 lettera = (text.count('b'))
@@ -94,6 +95,7 @@ lettera = (text.count('z'))
 print('z'*lettera)
 
 
+    
 
 
 
