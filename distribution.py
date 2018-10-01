@@ -42,6 +42,10 @@ print('The distribution of characters in "' +  text + '" is:')
 
 #prints all letters in their respective groups/need to order the groups by size. 
 text = text.lower()
+
+
+
+for i in  
 lettera = (text.count('a'))
 print('a'*lettera)
 lettera = (text.count('b'))
