@@ -43,13 +43,17 @@ print('The distribution of characters in "' +  text + '" is:')
 #prints all letters in their respective groups/need to order the groups by size. 
 text = text.lower()
 
+thealphabet = "abcdefghijklmnopqrstuvwxyz"
 
-
-for i in  
-lettera = (text.count('a'))
-print('a'*lettera)
+for ltr in thealphabet:
+    letter = (text.count(ltr))
+    if letter > 0:
+        print(ltr*letter)
+"""
 lettera = (text.count('b'))
 print('b'*lettera)
+if ('b'*lettera == " "):
+    pass
 lettera = (text.count('c'))
 print('c'*lettera)
 lettera = (text.count('d'))
@@ -98,7 +102,7 @@ lettera = (text.count('y'))
 print('y'*lettera)
 lettera = (text.count('z'))
 print('z'*lettera)
-
+"""
 
 
 
