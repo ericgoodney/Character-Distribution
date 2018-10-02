@@ -48,7 +48,7 @@ for ltr in thealphabet:
     letter = (text.count(ltr))
     if letter > 0:
         print(ltr*letter)
-ListName.sort()
+
 
 
 
