@@ -51,40 +51,10 @@ for ltr in thealphabet:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+mylist==str(ltr*letter)
+mylist.sort()
+"""
 
 
 
