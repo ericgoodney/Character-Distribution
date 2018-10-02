@@ -49,12 +49,9 @@ for ltr in thealphabet:
     if letter > 0:
         print(ltr*letter)
 
-
-
-"""
 mylist==str(ltr*letter)
 mylist.sort()
-"""
+
 
 
 
