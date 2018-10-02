@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Eric Goodney
+Credit: Peers, Friend, (https://stackoverflow.com/questions/14032521/python-data-structure-sort-list-alphabetically)
 
 Assignment:
 
@@ -48,10 +48,13 @@ for ltr in thealphabet:
     letter = (text.count(ltr))
     if letter > 0:
         print(ltr*letter)
-print(len(text))
+ListName.sort()
 
 
-    
+
+
+
+
 
 
 
