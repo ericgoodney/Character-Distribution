@@ -43,6 +43,7 @@ text = str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "' +  text + '" is:')
 
 text = text.lower()
+text = list(text)
 
 thealphabet = "abcdefghijklmnopqrstuvwxyz"
 
@@ -50,13 +51,13 @@ for ltr in thealphabet:
     letter = (text.count(ltr))
     if letter > 0:
         print(ltr*letter)
-          
-print(sorted(text, reverse=True))
-
-strs = (ltr*letter)
-print(sorted(strs, reverse))
-
-
+        
+        
+        
+append(ltr)       
+append((ltr,count))
+count.append(ltr)
+print(len(tuple))
 
 
 
