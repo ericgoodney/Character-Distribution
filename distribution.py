@@ -36,31 +36,28 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-
-
-
 text = str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "' +  text + '" is:')
 
 text = text.lower()
-text = list(text)
-result = []
+
 thealphabet = "abcdefghijklmnopqrstuvwxyz"
 
 for ltr in thealphabet:
     letter = (text.count(ltr))
     if letter > 0:
         print(ltr*letter)
+
+longestline = int(len(letter))
+while letter > 0:
+    for letter in text:
+        print(longestline)
+        
+        
         
         
 
-longestline = len(ltr)
-while ltr > 0:
-    for ltr in text:
-        if len(ltr) == longestline:
-            print(ltr)
     
-
 
 
 
