@@ -53,11 +53,9 @@ for ltr in thealphabet:
         print(ltr*letter)
         
         
-        
-append(ltr)       
-append((ltr,count))
-count.append(ltr)
-print(len(tuple))
+mylist = str(ltr)
+print(mylist.sort())
+
 
 
 
