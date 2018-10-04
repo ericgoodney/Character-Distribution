@@ -44,7 +44,7 @@ print('The distribution of characters in "' +  text + '" is:')
 
 text = text.lower()
 text = list(text)
-
+result = []
 thealphabet = "abcdefghijklmnopqrstuvwxyz"
 
 for ltr in thealphabet:
@@ -53,8 +53,13 @@ for ltr in thealphabet:
         print(ltr*letter)
         
         
-mylist = str(ltr)
-print(mylist.sort())
+
+longestline = len(ltr)
+while ltr > 0:
+    for ltr in text:
+        if len(ltr) == longestline:
+            print(ltr)
+    
 
 
 
