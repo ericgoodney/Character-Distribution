@@ -40,11 +40,13 @@ text = str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "' +  text + '" is:')
 
 text = text.lower()
-
 thealphabet = "abcdefghijklmnopqrstuvwxyz"
-
-
 results = []
+
+P=lettertimesitselfnumberoftimesprinted 
+lettertimesitselfnumberoftimesprinted = (text.count(i))*(i) 
+
+
 for i in thealphabet:
     oneresult = text.count(i)
     if oneresult>1:
