@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Eric Goodney
-Credit: Peers, Friend, (https://stackoverflow.com/questions/14032521/python-data-structure-sort-list-alphabetically)
+Credit: Mr. Dennison, Patrick, (https://stackoverflow.com/questions/14032521/python-data-structure-sort-list-alphabetically),(https://developers.google.com/edu/python/lists)
 
 Assignment:
 
@@ -43,17 +43,21 @@ text = text.lower()
 
 thealphabet = "abcdefghijklmnopqrstuvwxyz"
 
-
+#order alphabetically and by size at same time.
 results = []
 for i in thealphabet:
     oneresult = text.count(i)
-    if oneresult>1:
-        p = (text.count(i))*(i)
-        results.append(p)
+    if oneresult > 1:
+        totalamountofoneletter = ((text.count(i))*(i))
+        results.append(totalamountofoneletter)
+        
     elif oneresult > 0:
         results.append(i)
+        
 R = results
-for finalresult in sorted(R, key=len, reverse=True):
+L=len
+
+for finalresult in sorted(R, key=L, reverse=True):
      print(finalresult)
 
 
