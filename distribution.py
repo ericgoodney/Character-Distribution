@@ -43,12 +43,6 @@ text = text.lower()
 
 thealphabet = "abcdefghijklmnopqrstuvwxyz"
 
-for ltr in thealphabet:
-    letter = (text.count(ltr))
-    if letter > 0:
-        print(ltr*letter)
-        
-
 
 results = []
 for i in thealphabet:
