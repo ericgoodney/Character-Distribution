@@ -47,7 +47,24 @@ for ltr in thealphabet:
     letter = (text.count(ltr))
     if letter > 0:
         print(ltr*letter)
+        
 
+
+results = []
+for i in thealphabet:
+    oneresult = text.count(i)
+    if oneresult>1:
+        results.append((text.count(i))*(i))
+    elif oneresult > 0:
+        results.append(i)
+R = results
+for finalresult in sorted(R, key=len, reverse=True):
+     print(finalresult)
+
+
+    
+        
+        
 
         
         
