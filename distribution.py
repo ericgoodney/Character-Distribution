@@ -48,11 +48,7 @@ for ltr in thealphabet:
     if letter > 0:
         print(ltr*letter)
 
-longestline = int(len(letter))
-while letter > 0:
-    for letter in text:
-        print(longestline)
-        
+
         
         
         
